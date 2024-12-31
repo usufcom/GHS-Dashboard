@@ -22,7 +22,8 @@ Built using **Dash, Plotly, and Pandas**, the dashboard enables users to explore
 ### 📂 Project Structure  
 - 📄 app.py # Main Dash application file
 - 📊 GHS1.xlsx # Health statistics dataset
-
+- 📄 requirements.txt # Python dependencies
+- 📜 README.md # Project documentation
 
 ---
 
