@@ -20,7 +20,7 @@ Built using **Dash, Plotly, and Pandas**, the dashboard enables users to explore
 ---
 
 ### 📂 Project Structure  
-- 📄 app.py # Main Dash application file
+- 📄 GHS_dashboard.py # Main Dash application file
 - 📊 GHS1.xlsx # Health statistics dataset
 - 📄 requirements.txt # Python dependencies
 - 📜 README.md # Project documentation
@@ -36,7 +36,7 @@ Clone the Repository
 pip install -r requirements.txt
 
 4. **Run the Dashboard**
-- python app.py
+- python GHS_dashboard.py
 - Visit http://127.0.0.1:8050/ in your browser to interact with the dashboard.
 
 ### 👨‍💻 Author
