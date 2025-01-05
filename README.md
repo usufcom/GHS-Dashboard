@@ -4,11 +4,12 @@
 
 ### 📊 Overview  
 The **Global Health Statistics Dashboard** is an interactive web application that visualizes health data across various countries and diseases. This dashboard provides insights into disease prevalence, mortality rates, healthcare access, and more.  
+Built using **Dash, Plotly, and Pandas**, the dashboard enables users to explore comprehensive health metrics with interactive graphs and dropdowns.  
 
 ![Global Health Statistics Dashboard Screenshot2](images/ScreenCap2.jpeg)
 ![Global Health Statistics Dashboard Screenshot3](images/ScreenCap3.jpeg)
 
-Built using **Dash, Plotly, and Pandas**, the dashboard enables users to explore comprehensive health metrics with interactive graphs and dropdowns.  
+
 
 ---
 
