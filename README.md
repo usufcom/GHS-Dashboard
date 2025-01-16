@@ -41,7 +41,10 @@ Enhanced with a Chatbot Integration, users can interact with an AI-powered assis
 ### ⚙️ Setup and Installation  
 
 1. **Clone the Repository**  
-Clone the Repository
+```bash
+git clone https://github.com/your-repo-name.git
+cd your-repo-name
+```
 
 3. **Install Dependencies**
 pip install -r requirements.txt
