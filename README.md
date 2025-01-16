@@ -1,10 +1,13 @@
-# 🌍 Global Health Statistics Dashboard  
+# 🌍 Global Health Statistics Dashboard 
+## Enhanced with an AI-powered assistant to quickly retrieve relevant insights
 
-![Global Health Statistics Dashboard Screenshot1](images/ScreenCap1.jpeg)
+![Global Health Statistics Dashboard Screenshot1](images/ScreenCap1.png)
 
 ### 📊 Overview  
 The **Global Health Statistics Dashboard** is an interactive web application that visualizes health data across various countries and diseases. This dashboard provides insights into disease prevalence, mortality rates, healthcare access, and more.  
-Built using **Dash, Plotly, and Pandas**, the dashboard enables users to explore comprehensive health metrics with interactive graphs and dropdowns.  
+Built using **Dash, Plotly, and Pandas**, the dashboard enables users to explore comprehensive health metrics with interactive graphs and dropdowns. 
+
+Enhanced with a Chatbot Integration, users can interact with an AI-powered assistant to quickly retrieve relevant insights and answer questions about global health statistics, making the dashboard even more user-friendly and resourceful.
 
 ![Global Health Statistics Dashboard Screenshot2](images/ScreenCap2.jpeg)
 ![Global Health Statistics Dashboard Screenshot3](images/ScreenCap3.jpeg)
@@ -21,7 +24,8 @@ Built using **Dash, Plotly, and Pandas**, the dashboard enables users to explore
 - **Recovery Rate vs Treatment Cost** – Scatter plot showing cost vs recovery for major diseases.  
 - **Education Index vs Healthcare Access** – Analyze the relationship between education and healthcare availability.  
 - **Incidence Rate by Disease** – Grouped bar chart of disease incidence rates in selected countries.  
-- **Dynamic Dropdown** – Select specific diseases to filter the data and view tailored visualizations.  
+- **Dynamic Dropdown** – Select specific diseases to filter the data and view tailored visualizations.
+- **AI Chatbot Integration** – Ask questions about global health statistics and receive instant answers powered by AI.
 
 ---
 
@@ -29,6 +33,7 @@ Built using **Dash, Plotly, and Pandas**, the dashboard enables users to explore
 - 📄 GHS_dashboard.py # Main Dash application file
 - 📊 GHS1.xlsx # Health statistics dataset
 - 📄 requirements.txt # Python dependencies
+- 📜 index.html # Embeds the chatbot alongside the dashboard
 - 📜 README.md # Project documentation
 
 ---
@@ -44,6 +49,7 @@ pip install -r requirements.txt
 4. **Run the Dashboard**
 - python GHS_dashboard.py
 - Visit http://127.0.0.1:8050/ in your browser to interact with the dashboard.
+- Explore Chatbot Features: Interact with the AI chatbot embedded in the dashboard for personalized assistance.
 
 ### 👨‍💻 Author
 - Youssoufa M.
