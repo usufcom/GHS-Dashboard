@@ -4,6 +4,7 @@ import plotly.express as px
 
 # Load and preprocess the data
 df = pd.read_excel('GHS1.xlsx')
+#df = pd.read_csv('GHS2.csv')
 df.columns = df.columns.str.strip()
 
 # Data Cleaning
@@ -32,7 +33,7 @@ app.layout = html.Div([
     html.Div([
         html.H1("Global Health Statistics Dashboard",
                 style={'textAlign': 'center', 'color': 'white', 'padding': '10px'}),
-        html.H4("Comprehensive Health Insights by Disease and Country",
+        html.H4("Comprehensive Health Insights by Disease and Country. Explore disease prevalence, healthcare insights, and more.",
                 style={'textAlign': 'center', 'color': '#AAAAAA', 'fontStyle': 'italic'}),
         html.H4("Designed by Youssoufa M.",
                 style={'textAlign': 'center', 'color': '#AAAAAA', 'fontStyle': 'italic'}),
@@ -183,8 +184,10 @@ app.layout = html.Div([
     Input('disease-dropdown', 'value')
 )
 def update_map(selected_disease):
-    filtered_df = df[df['Disease Name'] == selected_disease]
+    # Filter the data for the selected disease
+    filtered_df = df[df['Disease Name'] == selected_disease].sort_values(by='Year')
 
+    # Create the choropleth map
     fig = px.choropleth(
         filtered_df,
         locations='Country',
@@ -195,6 +198,7 @@ def update_map(selected_disease):
         title=f'{selected_disease} Prevalence by Country'
     )
 
+    # Update layout for better visualization
     fig.update_layout(
         template='plotly_dark',
         geo=dict(
