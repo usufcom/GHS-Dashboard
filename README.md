@@ -30,7 +30,7 @@ Enhanced with a Chatbot Integration, users can interact with an AI-powered assis
 ---
 
 ### 📂 Project Structure  
-- 📄 GHS_dashboard.py # Main Dash application file
+- 📄 GHS_Dashbord_AIAgent.py # Main Dash application file
 - 📊 GHS1.xlsx # Health statistics dataset
 - 📄 requirements.txt # Python dependencies
 - 📜 index.html # Embeds the chatbot alongside the dashboard
@@ -50,7 +50,7 @@ cd your-repo-name
 pip install -r requirements.txt
 
 4. **Run the Dashboard**
-- python GHS_dashboard.py
+- python GHS_Dashbord_AIAgent.py
 - Visit http://127.0.0.1:8050/ in your browser to interact with the dashboard.
 - Explore Chatbot Features: Interact with the AI chatbot embedded in the dashboard for personalized assistance.
 
