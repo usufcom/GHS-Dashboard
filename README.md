@@ -50,7 +50,7 @@ cd your-repo-name
 pip install -r requirements.txt
 
 4. **Run the Dashboard**
-- python GHS_dashboard.py
+- Run ```bash python GHS_dashboard.py ```
 - Visit http://127.0.0.1:8050/ in your browser to interact with the dashboard.
 - Explore Chatbot Features: Interact with the AI chatbot embedded in the dashboard for personalized assistance.
 
